@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Velbrix - Build fast. Verify before you ship.</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <!-- Persistent Banner -->
+  <div id="authBanner" class="auth-banner">
+    <span class="banner-icon">[SHIELD]</span>
+    <span>Authorized testing only | All scores and findings shown are synthetic demo data.</span>
+  </div>
+
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar" id="sidebar">
+    <div class="logo">
+      <div class="logo-mark">SS</div>
+      <div class="logo-text">
+        <div class="logo-title">Velbrix</div>
+        <div class="logo-sub">Build fast. Verify before you ship.</div>
+      </div>
+    </div>
+
+    <ul class="nav-list">
+      <li class="nav-item active" data-view="upload">
+        <span class="nav-idx">1</span>
+        <span>Upload</span>
+      </li>
+      <li class="nav-item" data-view="dashboard">
+        <span class="nav-idx">2</span>
+        <span>ShipScan Dashboard</span>
+      </li>
+      <li class="nav-item" data-view="finding">
+        <span class="nav-idx">3</span>
+        <span>Finding Details</span>
+      </li>
+      <li class="nav-item" data-view="fixme">
+        <span class="nav-idx">4</span>
+        <span>FixMe Space</span>
+      </li>
+      <li class="nav-item" data-view="agentguard">
+        <span class="nav-idx">5</span>
+        <span>AgentGuard</span>
+      </li>
+      <li class="nav-item" data-view="sessionguard">
+        <span class="nav-idx">6</span>
+        <span>SessionGuard</span>
+      </li>
+      <li class="nav-item" data-view="report">
+        <span class="nav-idx">7</span>
+        <span>Trust Report</span>
+      </li>
+    </ul>
+
+    <div class="ai-status-panel" id="aiStatusPanel">
+      <div class="ai-label">AI Engine</div>
+      <div class="ai-value" id="aiEngine">Loading...</div>
+      <div class="ai-note" id="aiNote">Secret values are redacted before AI processing.</div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content" id="mainContent">
+    <!-- Views rendered here -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span>Build fast. Verify before you ship. — Team BruteVelocity</span>
+    <span class="footer-tag">Velbrix v1.0</span>
+  </footer>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

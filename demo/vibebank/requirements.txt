@@ -1,0 +1,3 @@
+# VibeBank Demo Project Dependencies
+# WARNING: Contains intentionally vulnerable versions for Velbrix demo
+flask==0.12.4
