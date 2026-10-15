@@ -1,0 +1,19 @@
+run = "bash start.sh"
+hidden = [".config", "tmp", "velbrix.db"]
+entrypoint = "main.py"
+modules = ["python-3.11"]
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["bash", "start.sh"]
+deploymentTarget = "cloudrun"
+build = ["pip", "install", "-r", "requirements.txt"]
+
+[[ports]]
+localPort = 8000
+externalPort = 80
+
+[env]
+PYTHONUNBUFFERED = "1"
